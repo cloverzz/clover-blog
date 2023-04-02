@@ -14,6 +14,7 @@ const config = {
   organizationName: 'Clover',
   projectName: 'blog',
   tagline: 'learn and share',
+  onBrokenLinks: 'ignore',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'img/logo.png',
@@ -349,7 +350,7 @@ const config = {
   ],
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'zh-CN'],
+    locales: ['en'],
     localeConfigs: {
       en: {
         htmlLang: 'en-GB',
