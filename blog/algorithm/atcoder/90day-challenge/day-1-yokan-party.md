@@ -1,12 +1,12 @@
 ---
 slug: atcoder-90day-challenge-day-1
 title: "[Atcoder typical 90] Day 01 - Yokan Party"
-date: 2023-04-1
+date: 2023-04-11
 authors: clover
 tags: [Algorithm, Atcoder, Binary Search]
 keywords: [Algorithm, Atcoder, Binary Search]
 ---
-### Question description
+### Problem description
 There is a Yokan of length $L$ [cm]. There are $N$ cutting points, and the $i$-th cutting point from the left is at position $A_i$ [cm] from the left.
 
 You want to choose $K$ of the $N$ cutting points and divide the Yokan into $K+1$ pieces. Then, the following value is used as the score:
@@ -59,7 +59,8 @@ We can employ the binary search algorithm to determine the highest achievable sc
 ### Complexity Analysis
 - **time complexity** : $O(N\log(L))$
 - **space complexity** : $O(N)$
-### Code
+
+### Solution
 ```cpp
 #include <iostream>
 #include <vector>
