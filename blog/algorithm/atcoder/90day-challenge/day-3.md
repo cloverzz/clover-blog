@@ -106,3 +106,5 @@ int main(){
 ```
 
 ### Reference
+\[1\] [ 競プロ典型 90 問](https://atcoder.jp/contests/typical90)  
+\[2\] [ 003 - Longest Circular Road（★4）](https://atcoder.jp/contests/typical90/tasks/typical90_c)
