@@ -11,7 +11,7 @@ There is a grid with $H$ rows and $W$ columns. The cell at the $i$-th row from t
 
 For all cells $(i, j)$ where $1 \leq i \leq H$ and $1 \leq j \leq W$, find the following value:
 - The sum of integers written in the cells that are in the same row or the same column as cell $(i, j)$ (including the cell itself).
-
+<!-- truncate -->
 **Constraints**
 $$
 1 \leq H \leq 2000 \\
