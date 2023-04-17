@@ -3,8 +3,8 @@ slug: atcoder-90day-challenge-day-3
 title: "[Atcoder typical 90] Day 03 - Longest Circular Road"
 date: 2023-04-13
 authors: clover
-tags: [Algorithm, Atcoder, Graph, BFS]
-keywords: [Algorithm, Atcoder, Graph, BFS]
+tags: [Algorithm, Atcoder]
+keywords: [Algorithm, Atcoder]
 ---
 ### Question description
 There are $N$ cities, each numbered from $1, 2, 3, \dots, N$. There are also $N-1$ roads, with the $i$-th road connecting cities $A[i]$ and $B[i]$ bidirectionally. It is possible to travel between any two cities using some roads.
@@ -67,7 +67,7 @@ void bfs(int s) {
     queue<int> q;
     q.push(s);
     while (!q.empty()) {
-        int u = q.front(); q.pop();
+        int u = q.front); q.pop();
         for (int v : G[u]) {
             if(C[v] == 0) {
                 C[v] = 1;
